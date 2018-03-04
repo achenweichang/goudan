@@ -1,0 +1,172 @@
+@charset 'utf-8';
+
+/* 头部组件 */
+.j-header .com-h-wrap{
+	background:#E3E4E5;
+}
+.j-header .h-wrap{
+	margin:0 auto;
+	width:1190px;
+	height: 30px;
+	font-size:12px;
+	line-height:30px;
+	color:#666;
+}
+.j-header .h-wrap > ul > li{
+
+	position:relative;
+	z-index:300;
+	float:left;
+	height:28px;
+	border:1px solid #E3E4E5;
+}
+.j-header .h-wrap ul li.com-line{
+	width:1px;
+	height:10px;
+	margin:10px 5px 0;
+	padding:0;
+	background:#ccc;
+	border:1px solid #E3E4E5;
+	
+}
+.j-header .h-wrap > .fl{
+	margin-left:200px;
+}
+.j-header .h-wrap .fl i{
+	color:red;
+}
+.j-header .h-wrap .fr li .iconfont{
+	vertical-align:middle;
+	margin-left:2px;
+}
+.j-header .h-wrap .fr > li > a + a{
+	margin-left:5px;
+	color:red;
+}
+a:hover{
+	color:#C81623;
+}
+.j-header .h-wrap .fr li ul{
+	display:none;
+	position:absolute;
+	z-index:-1;
+	margin:1px 0 0 -1px;
+	top:100%;
+	width:280px;
+	border:1px solid #ccc;
+	background:#fff;
+}
+.j-header .h-wrap .fr li ul.c-ul-list{
+	right:0px;
+	margin-right:-1px;
+	width:170px;
+}
+.j-header .h-wrap .fr li.com-menu .com-div{
+	padding:0 5px;
+}
+.j-header .h-wrap .fr li:hover{
+	cursor: auto;
+}
+.j-header .h-wrap .fr li.com-menu:hover{
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+.j-header .h-wrap .fr li.com-menu:hover ul{
+	display:block;
+}
+.j-header .h-wrap .fr li.com-menu:hover .com-div{
+	height:30px;
+	background:#fff;
+	border-bottom-color:#fff;
+}
+
+.j-header .h-wrap .fr li.com-menu ul li a{
+	float:left;
+	width:118px;
+}
+.j-header .h-wrap .fr li.com-menu ul.c-ul-list li a{
+	float:left;
+	width:70px;
+}
+.j-header .h-wrap .fr li.com-menu ul.c-ul-list1 li a{
+	float:left;
+	width:86px;
+	height:22px;
+	line-height:22px;
+}
+.j-header .h-wrap .fr li.com-menu ul.c-ul-list1{
+	right:-67px;
+	width:1188px;
+	height:147px;
+	padding:10px 0;
+}
+.j-header .h-wrap .fr li.com-menu ul.c-ul-list1 li{
+	float:left;
+	width:262px;
+	border-left:1px solid #E3E4E5;
+	border-top:none;
+}
+.j-header .h-wrap .fr li.com-menu ul.c-ul-list1 .com-firsr-li{
+	width:345px;
+	border-left:none;
+	
+}
+.j-header .h-wrap .fr li.com-menu ul li{
+	padding:0 0 0 12px;
+}
+.j-header .h-wrap .fr li.com-menu ul li + li{
+	border-top:1px solid #E3E4E5;
+}
+/* 头部组件*//*最后一个li-手机京东 */
+.j-header .h-wrap .fr li .my-mobile{
+	position:absolute;
+	top:100%;
+	left:-10px;
+	width:68px;
+	height:68px;
+	border:1px solid #E3E4E5;
+	background:url('../images/00-header/1.png') no-repeat ;
+	background-size:cover;
+}
+.j-header .h-wrap .fr li .my-mobile:after{
+	content:'';
+	display:block;
+	position:absolute;
+	top:1px;
+	left:50%;
+	margin:-5px 0 0 -5px;
+	border:5px solid transparent;
+	border-top:none;
+	border-bottom-color:#fff;
+	z-index:2;
+}
+.j-header .h-wrap .fr li.com-lastMenu ul{
+	position:absolute;
+	display:none;
+	top:100%;
+	right:-11px;
+	width:190px;
+	height:306px;
+	border:1px solid #ccc;
+	z-index:1;
+}
+.j-header .h-wrap .fr li.com-lastMenu:hover ul{
+	display:block;
+}
+.j-header .h-wrap .fr li.com-lastMenu ul li{
+	width:180px;
+	height:70px;
+	padding:15px 0 15px 10px;
+}
+.j-header .h-wrap .fr li.com-lastMenu ul li + li{
+	border-top:1px solid #ccc;
+}
+.j-header .h-wrap .fr li.com-lastMenu ul li div i{
+	font-size:30px;
+}
+.j-header .h-wrap .fr li.com-lastMenu ul li div {
+	line-height:15px;
+	width:85px;
+	margin-left:5px;
+}
+
